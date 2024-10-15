@@ -18,13 +18,9 @@ class heroi:
             print(f"O {self.classe} atacou usando uma shurikem")
         else :
             print("Essa classe nao existe")
-
-    # def saida (self):
-     #   print("o " + self.classe + " atacou usando Cajado")
+            
 
 heroi = heroi("jose", 19, "mago")
 
 heroi.definir_classe()
 heroi.atacar()
-
-#heroi.saida ()
